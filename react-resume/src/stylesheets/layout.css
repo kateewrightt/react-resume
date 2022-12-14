@@ -1,0 +1,11 @@
+.Content {
+  padding: 30px;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: aliceblue;
+}
