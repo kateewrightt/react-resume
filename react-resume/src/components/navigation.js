@@ -21,8 +21,10 @@ function Navigation() {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <NavDropdown title="Have a Look" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">My GitHub</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="https://github.com/kateewrightt">
+                My GitHub
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://www.linkedin.com/in/kate-wright-profile/">
                 My LinkedIn
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">My Resume</NavDropdown.Item>

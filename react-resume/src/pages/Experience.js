@@ -1,6 +1,13 @@
 import "../stylesheets/layout.css";
 import "../stylesheets/design.css";
 import { Row, Col, Button, Container } from "react-bootstrap";
+import React, { useState } from "react";
+import {
+  Accordion,
+  AccordionBody,
+  AccordionHeader,
+  AccordionItem,
+} from "reactstrap";
 
 import Card from "react-bootstrap/Card";
 import space from "../imgs/blue_space.png";
@@ -10,6 +17,14 @@ import Navigation from "../components/navigation";
 import Typewriter from "typewriter-effect";
 
 function Experience() {
+  const [open, setOpen] = useState("");
+  const toggle = (id) => {
+    if (open === id) {
+      setOpen();
+    } else {
+      setOpen(id);
+    }
+  };
   return (
     <div className="Background">
       <Helmet bodyAttributes={{ style: "background-color : aliceblue" }} />
@@ -26,7 +41,7 @@ function Experience() {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString(
-                        "My experience is *not* as tall as a skyscrapper"
+                        "My experience is *not* as tall as a skyscraper"
                       )
                       .callFunction(() => {
                         console.log("String typed out!");
@@ -44,161 +59,142 @@ function Experience() {
         <h1>What have I done?</h1>
         <Row>
           <h2>My Experience:</h2>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>IT Support Officer</Card.Title>
-                <Card.Text>
-                  Java project, creating software to build a maze and find the
-                  shorest path through. Allowed the user to specifiy
-                  requirements for the maze and generate their own, with
-                  corresponding solutions.
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>{" "}
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>Peg Solitare</Card.Title>
-                <Card.Text>
-                  Python project, solving a discrete mathematic puzzle. I chose
-                  to make a program to solve peg solitare. Used 'X' to represent
-                  a peg and 'o' to represent a hole.
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>REST API</Card.Title>
-                <Card.Text>
-                  Javascript project, deploying an express application to create
-                  a REST API. The API uses middleware security and used Swagger
-                  to test all endpoints. docs.
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>React Web App</Card.Title>
-                <Card.Text>
-                  <p>
-                    Javascript project, creating a React based web application
-                    to allow users to view and analyse data exposed via a REST
-                    API.
-                  </p>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <br></br>
-        </Row>
-        <Row>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>MVP Web System</Card.Title>
-                <Card.Text>
-                  Javascript project, creating React web app and REST API
-                  integrated with Node-Red flows, deployed on DockerHub. The
-                  problemspace was introduced by a real-world institution in
-                  need of a technological solution.
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>{" "}
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>Music Player</Card.Title>
-                <Card.Text>
-                  C project, creating a music player on a virtual
-                  microcontroller. Involved low level processes and interacting
-                  with bits to control the system.
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>Bidding System</Card.Title>
-                <Card.Text>
-                  C# project, using object-oriented principles to develop a
-                  trading program operating in the terminal. Mainly involved the
-                  user listing houses for sale, and auctioning them off. Also
-                  allowed users to bid in other auctions.
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
-              <Card.Body>
-                <Card.Title>Love Letter Site</Card.Title>
-                <Card.Text>
-                  <p>
-                    PHP project, using a Raspberry Pi to deploy a web server and
-                    site. My site allowed users to send love letters that would
-                    be stored on the server and could be accessed by the
-                    recipient of the letter.
-                  </p>
-                  <br></br>
-                </Card.Text>
-                <div class="card-footer text-center">
-                  <Button class="mt-auto" variant="info">
-                    Learn More
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+          <Col md={12}>
+            <div>
+              <Accordion flush open={open} toggle={toggle}>
+                <AccordionItem>
+                  <AccordionHeader targetId="1">
+                    IT Support Officer
+                  </AccordionHeader>
+                  <AccordionBody accordionId="1">
+                    <strong>
+                      Dec 2021 - Nov 2022<br></br>
+                    </strong>
+                    <p>
+                      This last year I have worked in a small team in the IT
+                      department at Moreton Bay Colleges. I was one of the first
+                      points of contact when issues would occur, may that be
+                      staff or student. I worked with both hardware and software
+                      issues for devices ranging from laptops to lazer cutters.
+                      Customer support played a big role in my job as I needed
+                      to make sure the user's needs were met in a timely manner.
+                    </p>
+                    <p> My support included:</p>
+                    <ul>
+                      <li>
+                        Providing troubleshooting and technical support for the
+                        company of 1000+ staff and students
+                      </li>
+                      <li>
+                        Maintaining operational and security standards for a
+                        fleet of devices
+                      </li>
+                      <li>
+                        Use of Active Directory tools and monitoring tools to
+                        assist in providing access controls and remote
+                        monitoring of computers and file services
+                      </li>
+                    </ul>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionHeader targetId="2">
+                    Girls Programming Network Tutor
+                  </AccordionHeader>
+                  <AccordionBody accordionId="2">
+                    <strong>
+                      2021<br></br>
+                    </strong>
+                    <p>
+                      My university hosted some highschool engagment days
+                      specfically focused on encouraging teenage girls to take
+                      up space in the world of STEM. As a tutor I supervised
+                      classes of ~20 students as they completed coding
+                      challenges. This event was designed to give these students
+                      confidence in their own skills and solidify their
+                      understanding of women in code.
+                    </p>
+                  </AccordionBody>
+                </AccordionItem>
+              </Accordion>
+            </div>
+            <br></br>
+            <h2>My Achievements:</h2>
+            <div>
+              <Accordion flush open={open} toggle={toggle}>
+                <AccordionItem>
+                  <AccordionHeader targetId="3">
+                    Westpac Young Technologist Scholar
+                  </AccordionHeader>
+                  <AccordionBody accordionId="3">
+                    <strong>
+                      Jan 2020 - Present<br></br>
+                    </strong>
+                    <p>
+                      This scholarship is aimed towards undergraduate students
+                      with 'a passion for technology that changes the world'. I
+                      am very grateful for this scholarship and for the
+                      oppurtunities I have recieved because of it. In July 2022
+                      I spent a week in Sydney with other scholars where we
+                      engaged in the 'Disruptive Leaders Program' with countless
+                      team building excerises and listened to many inspiring
+                      speakers. We also spent some time completing a 'Challenge'
+                      that was given to us by an industry company. This
+                      challenge involved solving a real-world road block this
+                      company is facing. Through a lense of both technology and
+                      business we were asked to come up with real-world
+                      solutions. I have learnt a lot from this scholarship and I
+                      have gained confidence in my own ability in this industry
+                    </p>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionHeader targetId="4">QUT Internship</AccordionHeader>
+                  <AccordionBody accordionId="4">
+                    <strong>
+                      2020<br></br>
+                    </strong>
+                    <p>
+                      In my senior year of highschool I applied to be involved
+                      in the QUT Young Accelerators program and successfully
+                      spent a week in the Design Robotics internship at QUT.The
+                      design robotics placement group studied the relationship
+                      that humans and machines share, specifically exploring new
+                      possibilities on how machines can be used to visualise
+                      datausing a light painting approach. Through the
+                      programming of a collaborative robot and an LED light
+                      strip, Australian and Indigenous population data dating
+                      back to 1788 was to be presented in a real-lifespaceand
+                      visualised by taking a long exposure image. The aim of the
+                      project was tobuild a program that could read a csv file
+                      and scalethis data into a certain number of LEDs, thus
+                      producing a legible histogram graph.
+                    </p>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionHeader targetId="5">
+                    Westpac Young Technologist Scholar
+                  </AccordionHeader>
+                  <AccordionBody accordionId="5">
+                    <strong>
+                      Presently<br></br>
+                    </strong>
+                    <p>
+                      I am including this scholarship in my experience as I
+                      believe a lot of my personal growth is a direct result of
+                      programs hosted by Westpac. As a scholar I was able to
+                      spend a week in Sydney and participate in a group
+                      'Challenge' for an industry problem where teams came up
+                      with real-world solutions to real issues facing a company
+                      and it's revenue streams. In Sydney we worked with 'Common
+                      Purpose' and explored our future in the technological
+                      world.
+                    </p>
+                  </AccordionBody>
+                </AccordionItem>
+              </Accordion>
+            </div>
           </Col>
         </Row>
       </div>
