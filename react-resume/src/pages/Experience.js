@@ -149,7 +149,9 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="4">QUT Internship</AccordionHeader>
+                  <AccordionHeader targetId="4">
+                    QUT Design Robotics Internship
+                  </AccordionHeader>
                   <AccordionBody accordionId="4">
                     <strong>
                       2020<br></br>
@@ -157,16 +159,16 @@ function Experience() {
                     <p>
                       In my senior year of highschool I applied to be involved
                       in the QUT Young Accelerators program and successfully
-                      spent a week in the Design Robotics internship at QUT.The
+                      spent a week in the Design Robotics internship at QUT. The
                       design robotics placement group studied the relationship
                       that humans and machines share, specifically exploring new
                       possibilities on how machines can be used to visualise
                       datausing a light painting approach. Through the
                       programming of a collaborative robot and an LED light
                       strip, Australian and Indigenous population data dating
-                      back to 1788 was to be presented in a real-lifespaceand
+                      back to 1788 was to be presented in a real-lifespace and
                       visualised by taking a long exposure image. The aim of the
-                      project was tobuild a program that could read a csv file
+                      project was to build a program that could read a csv file
                       and scalethis data into a certain number of LEDs, thus
                       producing a legible histogram graph.
                     </p>
@@ -174,29 +176,79 @@ function Experience() {
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionHeader targetId="5">
-                    Westpac Young Technologist Scholar
+                    Australian Defence Force Future Innovators Award
                   </AccordionHeader>
                   <AccordionBody accordionId="5">
                     <strong>
-                      Presently<br></br>
+                      2020<br></br>
                     </strong>
                     <p>
-                      I am including this scholarship in my experience as I
-                      believe a lot of my personal growth is a direct result of
-                      programs hosted by Westpac. As a scholar I was able to
-                      spend a week in Sydney and participate in a group
-                      'Challenge' for an industry problem where teams came up
-                      with real-world solutions to real issues facing a company
-                      and it's revenue streams. In Sydney we worked with 'Common
-                      Purpose' and explored our future in the technological
-                      world.
+                      This is an award from my senior year of high school that
+                      recognises students who demonstrate innocation and
+                      learning in STEM fields.
                     </p>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionHeader targetId="6">
+                    Digital Solutions Top of Class
+                  </AccordionHeader>
+                  <AccordionBody accordionId="6">
+                    <strong>
+                      2020<br></br>
+                    </strong>
+                    <p>
+                      High school award for achieveing the highest grade in
+                      Digital Solutions in my senior year.
+                    </p>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionHeader targetId="7">QUT Deans List</AccordionHeader>
+                  <AccordionBody accordionId="7">
+                    <strong>
+                      2021<br></br>
+                    </strong>
+                    <p>GPA of 7.0 in 2021</p>
                   </AccordionBody>
                 </AccordionItem>
               </Accordion>
             </div>
           </Col>
         </Row>
+        <br></br>
+        <h2>My References:</h2>
+        <div>
+          <Accordion flush open={open} toggle={toggle}>
+            <AccordionItem>
+              <AccordionHeader targetId="8">ANDREW DADDO </AccordionHeader>
+              <AccordionBody accordionId="8">
+                <strong>
+                  Director of IT for Moreton Bay Colleges<br></br>
+                </strong>
+                <p>Email: DaddoA@mbc.qld.edu.au</p>
+              </AccordionBody>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionHeader targetId="9">MARK MANSELL</AccordionHeader>
+              <AccordionBody accordionId="9">
+                <strong>
+                  System Administrator for Moreton Bay Colleges<br></br>
+                </strong>
+                <p>Email: MansellM@mbc.qld.edu.au</p>
+              </AccordionBody>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionHeader targetId="10">DAVID ROYDS</AccordionHeader>
+              <AccordionBody accordionId="10">
+                <strong>
+                  IT Helpdesk Coordinator for Moreton Bay Colleges<br></br>
+                </strong>
+                <p>Email: RoydsD@mbc.qld.edu.au</p>
+              </AccordionBody>
+            </AccordionItem>
+          </Accordion>
+        </div>
       </div>
     </div>
   );

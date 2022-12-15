@@ -3,7 +3,6 @@ import "../stylesheets/design.css";
 import { Row, Col, Button, Container } from "react-bootstrap";
 
 import Card from "react-bootstrap/Card";
-import milkyway from "../imgs/500pxspace.jpeg";
 
 import ocean from "../imgs/vast_ocean.jpg";
 import space from "../imgs/deep_space.jpg";
