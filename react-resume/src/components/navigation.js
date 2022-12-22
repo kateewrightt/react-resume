@@ -17,7 +17,7 @@ function Navigation() {
               Skills
             </Nav.Link>
             <Nav.Link link to="/#/ambitions">
-              Ambitions
+              BITitions
             </Nav.Link>
             <Nav.Link link to="/#/experience">
               Experience
