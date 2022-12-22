@@ -1,12 +1,6 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
-import {
-  HashRouter,
-  BrowserRouter,
-  Routes,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Skills from "./pages/Skills";
 import Ambitions from "./pages/Ambitions";
@@ -16,9 +10,9 @@ ReactDOM.render(
   <StrictMode>
     <HashRouter basename="/">
       <Routes>
-        <Route path="/" element={<Skills />} />
-        <Route path="/ambitions" element={<Ambitions />} />
-        <Route path="/experience" element={<Experience />} />
+        <Route path="/react-resume" element={<Skills />} />
+        <Route path="/react-resume/ambitions" element={<Ambitions />} />
+        <Route path="/react-resume/experience" element={<Experience />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
