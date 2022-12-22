@@ -8,12 +8,12 @@ import Experience from "./pages/Experience";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <HashRouter basename={process.env.PUBLIC_URL}>
-      <div>
-        <Route path="/" component={Skills} />
-        <Route path="/ambitions" component={Ambitions} />
-        <Route path="/experience" component={Experience} />
-      </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Skills />} />
+        <Route path="/ambitions" element={<Ambitions />} />
+        <Route path="/experience" element={<Experience />} />
+      </Routes>
     </HashRouter>
   </StrictMode>,
   rootElement
