@@ -27,7 +27,6 @@ function Navigation() {
               <NavDropdown.Item href="https://www.linkedin.com/in/kate-wright-profile/">
                 My LinkedIn
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">My Resume</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

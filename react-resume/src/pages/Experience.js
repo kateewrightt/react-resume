@@ -2,6 +2,7 @@ import "../stylesheets/layout.css";
 import "../stylesheets/design.css";
 import { Row, Col, Button, Container } from "react-bootstrap";
 import React, { useState } from "react";
+import Footer from "../components/footer";
 import {
   Accordion,
   AccordionBody,
@@ -10,7 +11,6 @@ import {
 } from "reactstrap";
 
 import Card from "react-bootstrap/Card";
-import space from "../imgs/blue_space.png";
 import city from "../imgs/city_skyline.jpeg";
 import Helmet from "react-helmet";
 import Navigation from "../components/navigation";
@@ -250,6 +250,7 @@ function Experience() {
           </Accordion>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

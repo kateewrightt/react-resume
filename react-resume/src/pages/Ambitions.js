@@ -7,6 +7,7 @@ import space from "../imgs/northern_lights.jpg";
 import Helmet from "react-helmet";
 import Navigation from "../components/navigation";
 import Typewriter from "typewriter-effect";
+import Footer from "../components/footer";
 
 function Ambitions() {
   return (
@@ -40,14 +41,110 @@ function Ambitions() {
       <div className="Content">
         <h1>What do I want to do?</h1>
         <Row>
-          <h2>Areas I want my degree to take me:</h2>
-          <p>
-            Bachelor of Information Technology <br></br>
-            Majoring in Computer Science <br></br>
-            Minoring in IOT and Security
-          </p>
+          <h2>
+            Where will my{" "}
+            <b>
+              <i> Bachelor of Information Technology </i>
+            </b>{" "}
+            take me? <br></br>
+            <p></p>{" "}
+          </h2>
+          <Col md={4}>
+            <Card style={{ width: "25rem", height: "100%" }}>
+              <Card.Body>
+                <Card.Title>Majoring in Computer Science</Card.Title>
+                <Card.Text>
+                  <p>
+                    I love programming. The adreniline I get from solving
+                    problems with code really drives me and I knew I needed to
+                    major in something that would let me code as much as
+                    possible.
+                    <br></br>
+                    <br></br>
+                    Highlights:
+                    <ul>
+                      <li>
+                        Use of hardware and software to design and build systems
+                        to solve complex problems or issues associated with
+                        efficiency, usability, and security.
+                      </li>
+                      <li>Learn software development and networked system</li>
+                      <li>
+                        Understand how an effective blend of information
+                        technology skills and business knowledge shape
+                        industries of the future
+                      </li>
+                    </ul>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card style={{ width: "25rem", height: "100%" }}>
+              <Card.Body>
+                <Card.Title>Minoring in IOT</Card.Title>
+                <Card.Text>
+                  <p>
+                    Internet of Things is something that really interested me in
+                    my first year and I am passionate about how technology can
+                    improve businesses, solve problems and intergrate into
+                    everyday life.
+                    <br></br>
+                    <br></br>
+                    Highlights:
+                    <ul>
+                      <li>
+                        Provides the theoretical and technical knowledge and
+                        skills to design and develop cost-effective
+                        cross-platform IoT solutions
+                      </li>
+                      <li>
+                        Learning how to devlop and deploy IOT devices such as
+                        sensor networks, mobile, and wearable devices
+                      </li>
+                      <li>
+                        Provides the skillset necessary to build innovative IoT
+                        solutions using industry-standard tools
+                      </li>
+                    </ul>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card style={{ width: "25rem", height: "100%" }}>
+              <Card.Body>
+                <Card.Title>Minoring in Information Security</Card.Title>
+                <Card.Text>
+                  This massive field is exactly where I want to grow my skills
+                  and learn real world processes. Security is so critical and
+                  data is the most significant currency to ever exist.
+                  <br></br>
+                  <br></br>
+                  Highlights:
+                  <ul>
+                    <li>
+                      Develops the knowledge and skills involved in contemporary
+                      electronic communications infrastructure, concentrating on
+                      fundamental networking technologies and information
+                      security principles
+                    </li>
+                    <li>
+                      Build a good understanding of the web and its
+                      architecture, especially software developers and those
+                      tasked with maintaining and implementing web-based
+                      software systems
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
