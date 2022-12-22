@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.4d7eada0.css",
-    "main.js": "/static/js/main.67e3ed3e.js",
+    "main.js": "/static/js/main.6adb6f35.js",
     "static/media/vast_ocean.jpg": "/static/media/vast_ocean.a4abecf320357fb259c3.jpg",
     "static/media/northern_lights.jpg": "/static/media/northern_lights.929aea5c2936ba0fb873.jpg",
     "static/media/city_skyline.jpeg": "/static/media/city_skyline.e8e3112ecf646f4f37c2.jpeg",
     "index.html": "/index.html",
     "main.4d7eada0.css.map": "/static/css/main.4d7eada0.css.map",
-    "main.67e3ed3e.js.map": "/static/js/main.67e3ed3e.js.map"
+    "main.6adb6f35.js.map": "/static/js/main.6adb6f35.js.map"
   },
   "entrypoints": [
     "static/css/main.4d7eada0.css",
-    "static/js/main.67e3ed3e.js"
+    "static/js/main.6adb6f35.js"
   ]
 }
