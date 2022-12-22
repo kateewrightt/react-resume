@@ -8,7 +8,7 @@ import Experience from "./pages/Experience";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <BrowserRouter basename="{process.env.https://kateewrightt.github.io/Me/}">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Skills />} />
         <Route path="/ambitions" element={<Ambitions />} />
