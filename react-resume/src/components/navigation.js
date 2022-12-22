@@ -9,13 +9,13 @@ function Navigation() {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand href="/">Kate's Showcase:</Navbar.Brand>
+        <Navbar.Brand href="/react-resume/">Kate's Showcase:</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Skills</Nav.Link>
-            <Nav.Link href="/#/ambitions">BITitions</Nav.Link>
-            <Nav.Link href="/#/experience">Experience</Nav.Link>
+            <Nav.Link href="/react-resume/">Skills</Nav.Link>
+            <Nav.Link href="/react-resume/#/ambitions">Ambitions</Nav.Link>
+            <Nav.Link href="/react-resume/#/experience">Experience</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
