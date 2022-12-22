@@ -1,7 +1,6 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import {
-  Switch,
   HashRouter,
   BrowserRouter,
   Routes,
@@ -16,17 +15,11 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
     <HashRouter basename="/">
-      <Switch>
-        <Route path="/">
-          <Skills />
-        </Route>
-        <Route path="/ambitions">
-          <Ambitions />
-        </Route>
-        <Route path="/experience">
-          <Experience />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Skills />} />
+        <Route path="/ambitions" element={<Ambitions />} />
+        <Route path="/experience" element={<Experience />} />
+      </Routes>
     </HashRouter>
   </StrictMode>,
   rootElement
