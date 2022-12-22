@@ -1,12 +1,6 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
-import {
-  HashRouter,
-  BrowserRouter,
-  Routes,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Skills from "./pages/Skills";
 import Ambitions from "./pages/Ambitions";
