@@ -10,9 +10,9 @@ ReactDOM.render(
   <StrictMode>
     <HashRouter basename="/">
       <Routes>
-        <Route path="/react-resume/" element={<Skills />} />
-        <Route path="/react-resume/#/ambitions" element={<Ambitions />} />
-        <Route path="/react-resume/#/experience" element={<Experience />} />
+        <Route path="/" element={<Skills />} />
+        <Route path="/#/ambitions" element={<Ambitions />} />
+        <Route path="/#/experience" element={<Experience />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
