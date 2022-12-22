@@ -8,11 +8,11 @@ import Experience from "./pages/Experience";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <HashRouter basename="/">
+    <HashRouter basename="/react-resume">
       <Routes>
-        <Route path="/react-resume" element={<Skills />} />
-        <Route path="/react-resume/ambitions" element={<Ambitions />} />
-        <Route path="/react-resume/experience" element={<Experience />} />
+        <Route exact path="/" element={<Skills />} />
+        <Route path="/ambitions" element={<Ambitions />} />
+        <Route path="/experience" element={<Experience />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
