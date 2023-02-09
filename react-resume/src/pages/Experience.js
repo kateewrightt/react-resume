@@ -75,7 +75,7 @@ function Experience() {
                       department at Moreton Bay Colleges. I was one of the first
                       points of contact when issues would occur, may that be
                       staff or student. I worked with both hardware and software
-                      issues for devices ranging from laptops to lazer cutters.
+                      issues for devices ranging from laptops to laser cutters.
                       Customer support played a big role in my job as I needed
                       to make sure the user's needs were met in a timely manner.
                     </p>
@@ -106,8 +106,8 @@ function Experience() {
                       2021<br></br>
                     </strong>
                     <p>
-                      My university hosted some highschool engagment days
-                      specfically focused on encouraging teenage girls to take
+                      My university hosted some highschool engagement days
+                      specifically focused on encouraging teenage girls to take
                       up space in the world of STEM. As a tutor I supervised
                       classes of ~20 students as they completed coding
                       challenges. This event was designed to give these students
@@ -134,14 +134,14 @@ function Experience() {
                       This scholarship is aimed towards undergraduate students
                       with 'a passion for technology that changes the world'. I
                       am very grateful for this scholarship and for the
-                      oppurtunities I have recieved because of it. In July 2022
+                      opportunities I have received because of it. In July 2022
                       I spent a week in Sydney with other scholars where we
                       engaged in the 'Disruptive Leaders Program' with countless
-                      team building excerises and listened to many inspiring
+                      team building exercises and listened to many inspiring
                       speakers. We also spent some time completing a 'Challenge'
                       that was given to us by an industry company. This
                       challenge involved solving a real-world road block this
-                      company is facing. Through a lense of both technology and
+                      company is facing. Through a lens of both technology and
                       business we were asked to come up with real-world
                       solutions. I have learnt a lot from this scholarship and I
                       have gained confidence in my own ability in this industry
@@ -163,13 +163,13 @@ function Experience() {
                       design robotics placement group studied the relationship
                       that humans and machines share, specifically exploring new
                       possibilities on how machines can be used to visualise
-                      datausing a light painting approach. Through the
+                      data using a light painting approach. Through the
                       programming of a collaborative robot and an LED light
                       strip, Australian and Indigenous population data dating
-                      back to 1788 was to be presented in a real-lifespace and
+                      back to 1788 was to be presented in a real-life space and
                       visualised by taking a long exposure image. The aim of the
                       project was to build a program that could read a csv file
-                      and scalethis data into a certain number of LEDs, thus
+                      and scale this data into a certain number of LEDs, thus
                       producing a legible histogram graph.
                     </p>
                   </AccordionBody>
@@ -184,7 +184,7 @@ function Experience() {
                     </strong>
                     <p>
                       This is an award from my senior year of high school that
-                      recognises students who demonstrate innocation and
+                      recognises students who demonstrate innovation and
                       learning in STEM fields.
                     </p>
                   </AccordionBody>
