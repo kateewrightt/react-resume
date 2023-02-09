@@ -55,11 +55,10 @@ function Ambitions() {
                 <Card.Title>Majoring in Computer Science</Card.Title>
                 <Card.Text>
                   <p>
-                    I love programming. The adreniline I get from solving
-                    problems with code really drives me and I knew I needed to
-                    major in something that would let me code as much as
-                    possible.
-                    <br></br>
+                    I love problem solving. Programming is where I find myself
+                    enjoying a problem the most. There is always a way to solve
+                    something, I love the feeling of fixing a problem and seeing
+                    my code work exactly how I envision.<br></br>
                     <br></br>
                     Highlights:
                     <ul>
