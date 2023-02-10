@@ -50,7 +50,7 @@ function Ambitions() {
             <p></p>{" "}
           </h2>
           <Col md={4}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <Card.Title>Majoring in Computer Science</Card.Title>
                 <Card.Text>
@@ -80,7 +80,7 @@ function Ambitions() {
             </Card>
           </Col>
           <Col md={4}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <Card.Title>Minoring in IOT</Card.Title>
                 <Card.Text>
@@ -113,7 +113,7 @@ function Ambitions() {
             </Card>
           </Col>
           <Col md={4}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <Card.Title>Minoring in Information Security</Card.Title>
                 <Card.Text>

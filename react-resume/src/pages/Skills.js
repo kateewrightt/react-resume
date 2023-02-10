@@ -45,7 +45,7 @@ function Skills() {
           <h2>Projects I have completed:</h2>
           <p></p>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title> Random Maze Solver</Card.Title>
@@ -63,7 +63,7 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Peg Solitare Solver</Card.Title>
@@ -81,7 +81,7 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Volcano API</Card.Title>
@@ -98,7 +98,7 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Volcano Website</Card.Title>
@@ -125,7 +125,7 @@ function Skills() {
         </Row>
         <Row>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Hospital Room Manager</Card.Title>
@@ -151,7 +151,7 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Music Player</Card.Title>
@@ -169,7 +169,7 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Spot Trading App</Card.Title>
@@ -187,7 +187,7 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "90%", height: "100%" }}>
+            <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Doggy Love Letter Website</Card.Title>
