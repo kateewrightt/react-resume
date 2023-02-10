@@ -17,10 +17,7 @@ function Footer() {
           <h5>
             <b>Kate Wright</b>
           </h5>
-          <i>
-            wrighk@outlook.com
-            <br></br>0466 833 088
-          </i>
+          <i>wrighk@outlook.com</i>
         </p>
       </section>
     </MDBFooter>

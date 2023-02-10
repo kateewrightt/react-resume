@@ -45,55 +45,72 @@ function Skills() {
           <h2>Projects I have completed:</h2>
           <p></p>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>Maze Solver</Card.Title>
+                <Card.Title> Random Maze Solver</Card.Title>
+                <Card.Subtitle>
+                  <i>Java</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
-                  Java project, creating software to build a maze and find the
-                  shorest path through. Allowed the user to specifiy
-                  requirements for the maze and generate their own, with
-                  corresponding solutions.
+                  GUI app that builds a maze using design requirments and finds
+                  the shortest path through. The user is able to submit their
+                  own maze for the system to solve, or specify requirements for
+                  the system to include in a generated maze.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>Peg Solitare</Card.Title>
+                <Card.Title>Peg Solitare Solver</Card.Title>
+                <Card.Subtitle>
+                  <i>Python</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
-                  Python project, solving a discrete mathematic puzzle. I chose
-                  to make a program to solve peg solitare. Used 'X' to represent
-                  a peg and 'o' to represent a hole.
+                  Terminal application that uses discrete mathematics including
+                  Regular Languages and Finite State Automata to determine how
+                  to solve a given Peg Solitare game. Used 'X' to represent a
+                  peg and 'o' to represent a hole.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>REST API</Card.Title>
+                <Card.Title>Volcano API</Card.Title>
+                <Card.Subtitle>
+                  <i>JavaScript, JUnit, Express</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
-                  Javascript project, deploying an express application to create
-                  a REST API. The API uses middleware security and used Swagger
-                  to test all endpoints. docs.
+                  An express application to create a REST API using worldwide
+                  volcano data. The API uses middleware security and Swagger
+                  docs to test all endpoints.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>React Web App</Card.Title>
+                <Card.Title>Volcano Website</Card.Title>
+                <Card.Subtitle>
+                  <i>Javascript, React, SQL</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
                   <p>
-                    Javascript project, creating a React based web application
-                    to allow users to view and analyse data exposed via a REST
-                    API.
+                    A React application that accesses data from an exposed REST
+                    API. Using SQL to fetch relevant data to the user and
+                    displaying it appropriately.
                   </p>
                   <br></br>
                   <br></br>
@@ -108,15 +125,25 @@ function Skills() {
         </Row>
         <Row>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>MVP Web System</Card.Title>
+                <Card.Title>Hospital Room Manager</Card.Title>
+                <Card.Subtitle>
+                  <i>Javascript, Node, AWS, React, Docker, SQL</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
-                  Javascript project, creating React web app and REST API
-                  integrated with Node-Red flows, deployed on DockerHub. The
-                  problemspace was introduced by a real-world institution in
-                  need of a technological solution.
+                  The problem space, introduced by an outside institution,
+                  demonstrates the need for a technological solution to the
+                  problem of space allocation in clincal spaces. The need is for
+                  a Web App that can track real-time if a given room is
+                  occuipied or not. Using Node-Red flows our team created a
+                  simulation environment that used IoT devices to track room
+                  occupation and store this data in a REST API. I managed the
+                  React App side of the project and used SQL to access this data
+                  and display it appropriately. This project was deployed on
+                  DockerHub.
                   <br></br>
                   <br></br>
                 </Card.Text>
@@ -124,43 +151,58 @@ function Skills() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
                 <Card.Title>Music Player</Card.Title>
+                <Card.Subtitle>
+                  <i>C</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
-                  C project, creating a music player on a virtual
-                  microcontroller. Involved low level processes and interacting
-                  with bits to control the system.
+                  Using a virtual microcontroller I experimented with wiring and
+                  bit conversions to create a small music player. This music
+                  player can play christmas tunes and nursery rhymes
+                  beautifully.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>Bidding System</Card.Title>
+                <Card.Title>Spot Trading App</Card.Title>
+                <Card.Subtitle>
+                  <i>C#</i>
+                </Card.Subtitle>
+                <br></br>
                 <Card.Text>
-                  C# project, using object-oriented principles to develop a
-                  trading program operating in the terminal. Mainly involved the
-                  user listing houses for sale, and auctioning them off. Also
-                  allowed users to bid in other auctions.
+                  A terminal spot trading app for properties. Allowed user to
+                  list houses for sale, place bids on houses and to accept bids.
+                  Used orderbook functionality to match bidders and sellers to
+                  determine which properties could be sold off.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: "18rem", height: "100%" }}>
+            <Card style={{ width: "90%", height: "100%" }}>
               <Card.Body>
                 <p></p>
-                <Card.Title>Love Letter Site</Card.Title>
+                <Card.Title>Doggy Love Letter Website</Card.Title>
                 <Card.Text>
+                  <Card.Subtitle>
+                    <i>PHP, SQL</i>
+                  </Card.Subtitle>
+                  <br></br>
                   <p>
-                    PHP project, using a Raspberry Pi to deploy a web server and
-                    site. My site allowed users to send love letters that would
-                    be stored on the server and could be accessed by the
-                    recipient of the letter.
+                    Used a Raspberry Pi to deploy a web server and web site. The
+                    site hosted a range of dog photos and descriptions and
+                    provided a way for users to send direct messages and 'love
+                    letters' to these specific dogs. Each love letter is stored
+                    in the database and the dogs recieve their own love letters
+                    in real-time as they are submitted.
                   </p>
                 </Card.Text>
               </Card.Body>
