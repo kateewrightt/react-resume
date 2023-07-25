@@ -41,7 +41,7 @@ function Experience() {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString(
-                        "My experience is *not* as tall as a skyscraper"
+                        "My experience is *almost* as tall as a skyscraper"
                       )
                       .callFunction(() => {
                         console.log("String typed out!");
@@ -63,8 +63,41 @@ function Experience() {
             <div>
               <Accordion flush open={open} toggle={toggle}>
                 <AccordionItem>
+                  <AccordionHeader targetId="2">
+                    Bielby Holdings - IT Undergraduate
+                  </AccordionHeader>
+                  <AccordionBody accordionId="2">
+                    <strong>
+                      April 2023 - Present<br></br>
+                    </strong>
+                    <p>
+                      Presently, I am a part of the IT department at Bielby
+                      Holdings, where my role as an IT Undergraduate involves
+                      overseeing and executing various projects.
+                    </p>
+                    <p>In my role, I have:</p>
+                    <ul>
+                      <li>
+                        Successfully managed a company-wide Active Directory
+                        (AD) to Azure Active Directory (AAD) migration.
+                      </li>
+                      <li>Implemented InTune Device Management.</li>
+                      <li>Provided application support for Azure DevOps.</li>
+                      <li>Performed in-depth analysis of Power BI reports.</li>
+                      <li>
+                        Made significant contributions to the organization's IT
+                        infrastructure.
+                      </li>
+                      <li>
+                        Developed skills in project management and technical
+                        support through this experience.
+                      </li>
+                    </ul>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
                   <AccordionHeader targetId="1">
-                    IT Support Officer
+                    Moreton Bay Colleges - IT Support Officer
                   </AccordionHeader>
                   <AccordionBody accordionId="1">
                     <strong>
@@ -76,8 +109,6 @@ function Experience() {
                       points of contact when issues would occur, may that be
                       staff or student. I worked with both hardware and software
                       issues for devices ranging from laptops to laser cutters.
-                      Customer support played a big role in my job as I needed
-                      to make sure the user's needs were met in a timely manner.
                     </p>
                     <p> My support included:</p>
                     <ul>
@@ -99,7 +130,7 @@ function Experience() {
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionHeader targetId="2">
-                    Girls Programming Network Tutor
+                    Girls Programming Network - Tutor
                   </AccordionHeader>
                   <AccordionBody accordionId="2">
                     <strong>
@@ -217,38 +248,6 @@ function Experience() {
           </Col>
         </Row>
         <br></br>
-        <h2>My References:</h2>
-        <div>
-          <Accordion flush open={open} toggle={toggle}>
-            <AccordionItem>
-              <AccordionHeader targetId="8">ANDREW DADDO </AccordionHeader>
-              <AccordionBody accordionId="8">
-                <strong>
-                  Director of IT for Moreton Bay Colleges<br></br>
-                </strong>
-                <p>Email: DaddoA@mbc.qld.edu.au</p>
-              </AccordionBody>
-            </AccordionItem>
-            <AccordionItem>
-              <AccordionHeader targetId="9">MARK MANSELL</AccordionHeader>
-              <AccordionBody accordionId="9">
-                <strong>
-                  System Administrator for Moreton Bay Colleges<br></br>
-                </strong>
-                <p>Email: MansellM@mbc.qld.edu.au</p>
-              </AccordionBody>
-            </AccordionItem>
-            <AccordionItem>
-              <AccordionHeader targetId="10">DAVID ROYDS</AccordionHeader>
-              <AccordionBody accordionId="10">
-                <strong>
-                  IT Helpdesk Coordinator for Moreton Bay Colleges<br></br>
-                </strong>
-                <p>Email: RoydsD@mbc.qld.edu.au</p>
-              </AccordionBody>
-            </AccordionItem>
-          </Accordion>
-        </div>
       </div>
       <Footer></Footer>
     </div>

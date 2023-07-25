@@ -115,7 +115,9 @@ function Ambitions() {
           <Col md={4}>
             <Card style={{ width: "100%", height: "100%" }}>
               <Card.Body>
-                <Card.Title>Minoring in Information Security</Card.Title>
+                <Card.Title>
+                  Minoring in Networks and Information Security
+                </Card.Title>
                 <Card.Text>
                   This massive field is exactly where I want to grow my skills
                   and learn real world processes. Security is so critical and
