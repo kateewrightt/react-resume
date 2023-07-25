@@ -64,7 +64,7 @@ function Experience() {
               <Accordion flush open={open} toggle={toggle}>
                 <AccordionItem>
                   <AccordionHeader targetId="1">
-                    Bielby Holdings - IT Undergraduate
+                    Bielby Hodldings - IT Undergraduate
                   </AccordionHeader>
                   <AccordionBody accordionId="1">
                     <strong>
