@@ -154,10 +154,10 @@ function Experience() {
             <div>
               <Accordion flush open={open} toggle={toggle}>
                 <AccordionItem>
-                  <AccordionHeader targetId="3">
+                  <AccordionHeader targetId="4">
                     Westpac Young Technologist Scholar
                   </AccordionHeader>
-                  <AccordionBody accordionId="3">
+                  <AccordionBody accordionId="4">
                     <strong>
                       Jan 2020 - Present<br></br>
                     </strong>
@@ -180,10 +180,10 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="4">
+                  <AccordionHeader targetId="5">
                     QUT Design Robotics Internship
                   </AccordionHeader>
-                  <AccordionBody accordionId="4">
+                  <AccordionBody accordionId="5">
                     <strong>
                       2020<br></br>
                     </strong>
@@ -206,10 +206,10 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="5">
+                  <AccordionHeader targetId="6">
                     Australian Defence Force Future Innovators Award
                   </AccordionHeader>
-                  <AccordionBody accordionId="5">
+                  <AccordionBody accordionId="6">
                     <strong>
                       2020<br></br>
                     </strong>
@@ -221,10 +221,10 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="6">
+                  <AccordionHeader targetId="7">
                     Digital Solutions Top of Class
                   </AccordionHeader>
-                  <AccordionBody accordionId="6">
+                  <AccordionBody accordionId="7">
                     <strong>
                       2020<br></br>
                     </strong>
@@ -235,12 +235,14 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="7">QUT Deans List</AccordionHeader>
-                  <AccordionBody accordionId="7">
+                  <AccordionHeader targetId="8">High GPA</AccordionHeader>
+                  <AccordionBody accordionId="8">
                     <strong>
                       2021<br></br>
                     </strong>
                     <p>GPA of 7.0 in 2021</p>
+                    <p>GPA of 6.5 in 2022</p>
+                    <p>GPA of 6.5 in 2023</p>
                   </AccordionBody>
                 </AccordionItem>
               </Accordion>
