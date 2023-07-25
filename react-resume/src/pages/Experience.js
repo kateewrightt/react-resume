@@ -63,10 +63,10 @@ function Experience() {
             <div>
               <Accordion flush open={open} toggle={toggle}>
                 <AccordionItem>
-                  <AccordionHeader targetId="2">
+                  <AccordionHeader targetId="1">
                     Bielby Holdings - IT Undergraduate
                   </AccordionHeader>
-                  <AccordionBody accordionId="2">
+                  <AccordionBody accordionId="1">
                     <strong>
                       April 2023 - Present<br></br>
                     </strong>
@@ -96,10 +96,10 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="1">
+                  <AccordionHeader targetId="2">
                     Moreton Bay Colleges - IT Support Officer
                   </AccordionHeader>
-                  <AccordionBody accordionId="1">
+                  <AccordionBody accordionId="2">
                     <strong>
                       Dec 2021 - Nov 2022<br></br>
                     </strong>
@@ -129,10 +129,10 @@ function Experience() {
                   </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                  <AccordionHeader targetId="2">
+                  <AccordionHeader targetId="3">
                     Girls Programming Network - Tutor
                   </AccordionHeader>
-                  <AccordionBody accordionId="2">
+                  <AccordionBody accordionId="3">
                     <strong>
                       2021<br></br>
                     </strong>
