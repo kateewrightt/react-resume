@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.e51b1116.css",
-    "main.js": "/react-resume/static/js/main.c7c5ee63.js",
+    "main.css": "/react-resume/static/css/main.55f01cdb.css",
+    "main.js": "/react-resume/static/js/main.08ddf56e.js",
     "static/media/vast_ocean.jpg": "/react-resume/static/media/vast_ocean.a4abecf320357fb259c3.jpg",
     "static/media/northern_lights.jpg": "/react-resume/static/media/northern_lights.929aea5c2936ba0fb873.jpg",
     "static/media/city_skyline.jpeg": "/react-resume/static/media/city_skyline.e8e3112ecf646f4f37c2.jpeg",
     "index.html": "/react-resume/index.html",
-    "main.e51b1116.css.map": "/react-resume/static/css/main.e51b1116.css.map",
-    "main.c7c5ee63.js.map": "/react-resume/static/js/main.c7c5ee63.js.map"
+    "main.55f01cdb.css.map": "/react-resume/static/css/main.55f01cdb.css.map",
+    "main.08ddf56e.js.map": "/react-resume/static/js/main.08ddf56e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e51b1116.css",
-    "static/js/main.c7c5ee63.js"
+    "static/css/main.55f01cdb.css",
+    "static/js/main.08ddf56e.js"
   ]
 }
