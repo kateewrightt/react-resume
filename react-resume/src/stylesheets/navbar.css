@@ -41,3 +41,26 @@
   font-size: 30px;
   color: white;
 }
+/* design.css */
+
+/* Styles for the Introduction section */
+.Introduction {
+  text-align: center;
+  padding: 40px 20px; /* Adding some padding around the content */
+  background-color: #f0f0f0; /* Setting a background color to make it stand out */
+}
+
+.Introduction p {
+  font-size: 18px; /* Customize the font size for normal text */
+}
+
+.Introduction .website-link {
+  font-size: 24px; /* Increase the font size of the website link */
+  font-weight: bold; /* Add bold style to the link */
+  color: #007bff; /* Change the link color to blue (#007bff) */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.Introduction .website-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
