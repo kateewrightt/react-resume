@@ -22,16 +22,15 @@ function Skills() {
               <div className="Navbar_over_img">
                 <Navigation />
               </div>
-
+              <p>
+                I just made a new website so you guys at capstone can see my
+                skills better:
+              </p>
+              <a href="https://katewright.netlify.app/">
+                https://katewright.netlify.app/
+              </a>
+              <p>Please be patient as it is Brand New!</p>
               <div class="carousel_caption d-block">
-                <h1>
-                  I just made a new website so you guys at capstone can see my
-                  skills better:
-                </h1>
-                <a href="https://katewright.netlify.app/">
-                  https://katewright.netlify.app/
-                </a>
-                <p>Please be patient as it is Brand New!</p>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
