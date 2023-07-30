@@ -21,6 +21,19 @@ function Ambitions() {
               <div className="Navbar_over_img">
                 <Navigation />
               </div>
+              <div className="Introduction">
+                <p>
+                  I just made a new website so you guys at capstone can see my
+                  skills better:
+                </p>
+                <a
+                  href="https://katewright.netlify.app/"
+                  className="website-link"
+                >
+                  https://katewright.netlify.app/
+                </a>
+                <p>Please be patient as it is Brand New!</p>
+              </div>
               <div class="carousel_caption d-block">
                 <Typewriter
                   onInit={(typewriter) => {
