@@ -23,6 +23,9 @@ function Skills() {
                 <Navigation />
               </div>
               <div class="carousel_caption d-block">
+              <h1>I just made a new website so you guys at capstone can see my skills better:</h1>
+                <h1><https://katewright.netlify.app/</h1>
+                <p>Please be patient as it is Brand New!</p>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
